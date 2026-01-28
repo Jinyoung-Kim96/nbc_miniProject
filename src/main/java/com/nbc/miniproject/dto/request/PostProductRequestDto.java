@@ -1,0 +1,32 @@
+package com.nbc.miniproject.dto.request;
+
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class PostProductRequestDto {
+    
+    @NotBlank
+    private String sku;
+
+    @NotBlank
+    private String productName;
+    
+    @NotNull
+    @Min(0)
+    private Integer price;
+
+    private String description;
+
+
+
+
+}

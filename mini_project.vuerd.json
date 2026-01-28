@@ -1,0 +1,159 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dineug/erd-editor/main/json-schema/schema.json",
+  "version": "3.0.0",
+  "settings": {
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": 0,
+    "scrollLeft": 0,
+    "zoomLevel": 1,
+    "show": 431,
+    "database": 4,
+    "databaseName": "",
+    "canvasType": "@dineug/erd-editor/builtin-schema-sql",
+    "language": 1,
+    "tableNameCase": 4,
+    "columnNameCase": 2,
+    "bracketType": 1,
+    "relationshipDataTypeSync": true,
+    "relationshipOptimization": false,
+    "columnOrder": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "maxWidthComment": -1,
+    "ignoreSaveSettings": 0
+  },
+  "doc": {
+    "tableIds": [
+      "xiFUjQBauIl2F9UO5q-nn"
+    ],
+    "relationshipIds": [],
+    "indexIds": [],
+    "memoIds": []
+  },
+  "collections": {
+    "tableEntities": {
+      "xiFUjQBauIl2F9UO5q-nn": {
+        "id": "xiFUjQBauIl2F9UO5q-nn",
+        "name": "product",
+        "comment": "상품",
+        "columnIds": [
+          "6N35lA-EoeppD9DbhurJ8",
+          "-OW1--7zfzkeoeHHvaf7B",
+          "R0Erw_dYHpc5X1hGphfwp",
+          "BWS4544e9H_RioFKJTS8n"
+        ],
+        "seqColumnIds": [
+          "6N35lA-EoeppD9DbhurJ8",
+          "-OW1--7zfzkeoeHHvaf7B",
+          "R0Erw_dYHpc5X1hGphfwp",
+          "BWS4544e9H_RioFKJTS8n"
+        ],
+        "ui": {
+          "x": 199,
+          "y": 100,
+          "zIndex": 2,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1769578739252,
+          "createAt": 1769575594096
+        }
+      }
+    },
+    "tableColumnEntities": {
+      "6N35lA-EoeppD9DbhurJ8": {
+        "id": "6N35lA-EoeppD9DbhurJ8",
+        "tableId": "xiFUjQBauIl2F9UO5q-nn",
+        "name": "stock_keeping_unit",
+        "comment": "고유 식별 코드",
+        "dataType": "VARCHAR(10)",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 103,
+          "widthComment": 81,
+          "widthDataType": 75,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1769583982786,
+          "createAt": 1769575652130
+        }
+      },
+      "-OW1--7zfzkeoeHHvaf7B": {
+        "id": "-OW1--7zfzkeoeHHvaf7B",
+        "tableId": "xiFUjQBauIl2F9UO5q-nn",
+        "name": "product_name",
+        "comment": "상품 이름",
+        "dataType": "VARCHAR(20)",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 78,
+          "widthComment": 60,
+          "widthDataType": 75,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1769578745174,
+          "createAt": 1769576136432
+        }
+      },
+      "R0Erw_dYHpc5X1hGphfwp": {
+        "id": "R0Erw_dYHpc5X1hGphfwp",
+        "tableId": "xiFUjQBauIl2F9UO5q-nn",
+        "name": "price",
+        "comment": "판매가",
+        "dataType": "INT",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1769576188643,
+          "createAt": 1769576162407
+        }
+      },
+      "BWS4544e9H_RioFKJTS8n": {
+        "id": "BWS4544e9H_RioFKJTS8n",
+        "tableId": "xiFUjQBauIl2F9UO5q-nn",
+        "name": "description",
+        "comment": "상품 설명",
+        "dataType": "TEXT",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 61,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1769576750669,
+          "createAt": 1769576733077
+        }
+      }
+    },
+    "relationshipEntities": {},
+    "indexEntities": {},
+    "indexColumnEntities": {},
+    "memoEntities": {}
+  }
+}
