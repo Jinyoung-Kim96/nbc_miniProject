@@ -8,6 +8,7 @@ public interface ResponseCode {
     String DUPLICATE_SKU = "DS";
     String DUPLICATE_PRODUCT_NAME = "DP";
     String NOT_EXISTED_PRODUCT = "NP";
+    String NOT_EXISTED_ORDER = "NO";
 
     // Http Status 500
     String DATABASE_ERROR = "DBE";

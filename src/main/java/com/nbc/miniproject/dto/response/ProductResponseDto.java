@@ -14,24 +14,11 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class ProductResponseDto extends ResponseDto{
 
-
-    public static ResponseEntity<ResponseDto> duplicateSku(){
-        ResponseDto result = new ResponseDto(ResponseCode.DUPLICATE_SKU, ResponseMessage.DUPLICATE_SKU);
-        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(result);
-    }
-    
     public static ResponseEntity<ResponseDto> duplicateProductName(){
         ResponseDto result = new ResponseDto(ResponseCode.DUPLICATE_PRODUCT_NAME, ResponseMessage.DUPLICATE_PRODUCT_NAME);
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(result);
     }
 
-
-    public static ResponseEntity<ResponseDto> notExistProduct(){
-        ResponseDto result = new ResponseDto(ResponseCode.NOT_EXISTED_PRODUCT, ResponseMessage.NOT_EXISTED_PRODUCT);
-        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(result);
-    }
-
-    
 
     
 }

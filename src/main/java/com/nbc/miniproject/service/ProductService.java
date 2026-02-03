@@ -15,4 +15,6 @@ public interface ProductService {
     ResponseEntity<? super ProductListResponseDto> getProductList();
     ResponseEntity<? super ResponseDto> deleteProduct(String sku);
     ResponseEntity<? super ResponseDto> patchProduct(PatchProductRequestDto dto, String sku);
+
+
 }

@@ -14,6 +14,7 @@ public class ProductDetailResponseDto extends ResponseDto{
     private int price;
     private String description;
 
+
     public ProductDetailResponseDto(Product product) {
         super("SU", "Success");
         this.sku = product.getSku();
